@@ -2,3 +2,4 @@
 
 export(cleanNumberFormat)
 export(readConfig)
+export(sourceFunctions)
