@@ -1,0 +1,25 @@
+---
+title: "Document Title"
+author: "Author"
+date: "`r format(Sys.time(), '%A, %B %d, %Y')`"
+output:
+    html_document:
+        toc: yes
+        fig_width: 10
+        theme: spacelab
+        highlight: haddock
+        css: styles.css
+        includes:
+            in_header: header.html
+---
+
+## Summary
+
+Blahblahblah
+
+## Section One
+
+Blahblahblah
+
+\  
+

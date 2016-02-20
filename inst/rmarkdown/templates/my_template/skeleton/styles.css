@@ -1,0 +1,11 @@
+.myheader {
+    margin: auto;
+    width: 940px;
+    max-width: 100%;
+}
+#logo {
+    width: 148px;
+    height: 148px;
+    margin-top: 20px;
+    float: right;
+}
