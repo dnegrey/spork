@@ -1,0 +1,14 @@
+Package: spork
+Type: Package
+Version: 0.0.0.9001
+Title: A hodgepodge of useful of things
+Description: A hodgepodge of useful of things
+Authors@R: c(
+    person("Dan", "Negrey", email = "dnegrey@gmail.com", role = c("aut", "cre"))
+    )
+URL: https://github.com/dnegrey/spork.git
+BugReports: https://github.com/dnegrey/spork.git/issues
+Depends:
+    R (>= 3.2.2)
+License: MIT
+LazyData: true
