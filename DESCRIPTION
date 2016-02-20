@@ -1,14 +1,15 @@
 Package: spork
 Type: Package
 Version: 0.0.0.9001
-Title: A hodgepodge of useful of things
-Description: A hodgepodge of useful of things
+Title: A multipurpose utensil
+Description: Miscellaneous collection of R functions, objects and templates
 Authors@R: c(
     person("Dan", "Negrey", email = "dnegrey@gmail.com", role = c("aut", "cre"))
     )
-URL: https://github.com/dnegrey/spork.git
-BugReports: https://github.com/dnegrey/spork.git/issues
+URL: https://github.com/dnegrey/spork
+BugReports: https://github.com/dnegrey/spork/issues
 Depends:
     R (>= 3.2.2)
 License: MIT
 LazyData: true
+RoxygenNote: 5.0.1
