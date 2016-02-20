@@ -9,3 +9,9 @@
     margin-top: 20px;
     float: right;
 }
+.sourceCode {
+    background-color: #E0E0E0;
+}
+p code {
+    color: #FF3005;
+}
