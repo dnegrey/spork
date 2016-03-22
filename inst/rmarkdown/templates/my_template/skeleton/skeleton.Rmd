@@ -15,11 +15,15 @@ output:
 
 ## Summary
 
-Blahblahblah
+This is the summary section. Describe what you have done, why you have done it and the conclusions that you have reached.
 
 ## Section One
 
-Blahblahblah
+The first logical section.
+
+## Section Two
+
+The second logical section.
 
 \  
 
