@@ -1,11 +1,14 @@
-#' @title copy RmdHTMLdoc template
-#' @description copy RmdHTMLdoc template
-#' @param dir 
-#' @param logoFile 
-#' @param width 
-#' @param height 
-#' @param moreLogoCSS 
-#' @param recursive 
+#' @title Draft a new R Markdown document with an embedded image
+#' @description \code{draftRmdHTML} copies a standard R Markdown (to HTML) 
+#' document template while allowing for dynamic insertion and styling of an 
+#' image (logo)
+#' @param dir character value; directory to store template files
+#' @param logoFile character value; path to image file to embed
+#' @param width integer; styling width (in pixels) to use on embedded image
+#' @param height integer; styling height (in pixels) to use on embedded image
+#' @param moreLogoCSS character value; additional CSS to use on embedded image
+#' @param recursive logical value; should elements of \code{dir} other than the 
+#' last be created? If \code{TRUE}, like the UNIX command \code{mkdir -p}.
 #' @return A logical value indicating the success (or failure) of copying the 
 #' template files. If \code{dir} does not exist, its creation will be 
 #' attempted. Template files are then copied to \code{dir}. Appropriate 
