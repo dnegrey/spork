@@ -2,7 +2,7 @@
 % Please edit documentation in R/RDataCreate.R
 \name{RDataCreate}
 \alias{RDataCreate}
-\title{Create an RData file containing the results of a function}
+\title{Create an RData file containing the result of a function call}
 \usage{
 RDataCreate(dir, x, fun, args, replace = FALSE)
 }

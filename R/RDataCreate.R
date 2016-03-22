@@ -1,4 +1,4 @@
-#' @title Create an RData file containing the results of a function
+#' @title Create an RData file containing the result of a function call
 #' @description \code{RDataCreate} stores the result of a function call in an 
 #' RData file using the specified directory and file/object name
 #' @param dir character value; directory in which to store the output RData file
