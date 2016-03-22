@@ -2,9 +2,11 @@
 
 export(RDataCreate)
 export(RDataUse)
+export(draftRmdHTML)
 export(formatNumeric)
 export(jsNumericFormatters)
 export(loadPackages)
 export(readConfig)
 export(readTemplate)
 export(sourceFunctions)
+importFrom(knitr,image_uri)

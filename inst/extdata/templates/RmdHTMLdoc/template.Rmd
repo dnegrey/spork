@@ -15,15 +15,15 @@ output:
 
 ## Summary
 
-This is the summary section. Describe what you have done, why you have done it and the conclusions that you have reached.
+This is the summary section. *Briefly* describe what you have done, why you have done it and the conclusions that you have reached.
 
-## Section One
+## Body
 
-The first logical section.
+This is the main body of your document. Use sub-sections as necessary.
 
-## Section Two
+## Results
 
-The second logical section.
+Present your findings including implications, conclusions, recommendations, etc...
 
 \  
 
