@@ -15,11 +15,15 @@ output:
 
 ## Summary
 
-Blahblahblah
+This is the summary section. *Briefly* describe what you have done, why you have done it and the conclusions that you have reached.
 
-## Section One
+## Body
 
-Blahblahblah
+This is the main body of your document. Use sub-sections as necessary.
+
+## Results
+
+Present your findings including implications, conclusions, recommendations, etc...
 
 \  
 
