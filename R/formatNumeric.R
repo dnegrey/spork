@@ -1,5 +1,5 @@
-#' @title Convert numbers to text while applying pretty formatting
-#' @description \code{cleanNumberFormat} converts numeric values to character 
+#' @title Convert a numeric vector to character while applying pretty formatting
+#' @description \code{formatNumeric} converts numeric values to character 
 #' and can apply various pretty formatting
 #' @param x numeric vector on which to apply formatting/conversion
 #' @param type the type of formatting to use; valid values are "int", "dlr" and 
@@ -10,12 +10,12 @@
 #' @examples 
 #' x <- rnorm(5)
 #' print(x)
-#' cleanNumberFormat(x, "pct", 1)
-#' cleanNumberFormat(x*10000, "int")
-#' cleanNumberFormat(x*10000, "dlr", digits = 2)
+#' formatNumeric(x, "pct", 1)
+#' formatNumeric(x*10000, "int")
+#' formatNumeric(x*10000, "dlr", digits = 2)
 #' @seealso \code{\link{round}, \link{trimws}}
 #' @export 
-cleanNumberFormat <- function(x, type, digits = 0) {
+formatNumeric <- function(x, type, digits = 0) {
     if (type == "int") {
         y <- format(round(x, digits), nsmall = digits, big.mark = ",")
         y <- trimws(y)
