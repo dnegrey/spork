@@ -4,10 +4,10 @@
 \alias{readTemplate}
 \title{Read in a template file and apply optional replacements}
 \usage{
-readTemplate(f, addLineBreaks = FALSE, ...)
+readTemplate(file, addLineBreaks = FALSE, ...)
 }
 \arguments{
-\item{f}{character value; path to template file}
+\item{file}{character value; path/name of the template file}
 
 \item{addLineBreaks}{logical value; include line breaks (\code{\\n}) in 
 result?}
@@ -19,8 +19,8 @@ A character value containing the contents of \code{f} after any
 specified string replacements have been made.
 }
 \description{
-\code{readTemplate} reads \code{f} and uses \code{sprintf} to 
-make string replacements when specified
+\code{readTemplate} reads \code{file} and uses \code{sprintf} 
+to make string replacements when specified
 }
 \examples{
 x <- c("select \%s", "from \%s", "where \%s")

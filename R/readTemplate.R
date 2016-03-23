@@ -1,7 +1,7 @@
 #' @title Read in a template file and apply optional replacements
-#' @description \code{readTemplate} reads \code{f} and uses \code{sprintf} to 
-#' make string replacements when specified
-#' @param f character value; path to template file
+#' @description \code{readTemplate} reads \code{file} and uses \code{sprintf} 
+#' to make string replacements when specified
+#' @param file character value; path/name of the template file
 #' @param addLineBreaks logical value; include line breaks (\code{\\n}) in 
 #' result?
 #' @param ... objects to use as string replacements
@@ -16,9 +16,9 @@
 #' write(y, "x2.sql")
 #' @seealso \code{\link{readLines}, \link{sprintf}}
 #' @export 
-readTemplate <- function(f, addLineBreaks = FALSE, ...) {
+readTemplate <- function(file, addLineBreaks = FALSE, ...) {
     cl <- ifelse(addLineBreaks, "\n", " ")
-    x <- readLines(f, warn = FALSE)
+    x <- readLines(file, warn = FALSE)
     x <- paste(x, collapse = cl)
     x <- sprintf(x, ...)
     return(x)

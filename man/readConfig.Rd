@@ -4,10 +4,10 @@
 \alias{readConfig}
 \title{Read a configuration file into a named list}
 \usage{
-readConfig(f)
+readConfig(file)
 }
 \arguments{
-\item{f}{file path to the configuration file}
+\item{file}{character value; path/name of the configuration file}
 }
 \value{
 A named list of character values where the names are the keys from 

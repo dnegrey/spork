@@ -4,10 +4,10 @@
 \alias{loadPackages}
 \title{Load the packages specified in a file}
 \usage{
-loadPackages(f)
+loadPackages(file)
 }
 \arguments{
-\item{f}{character value; path/name of the file containing the package list}
+\item{file}{character value; path/name of the file containing the package list}
 }
 \value{
 A logical vector describing the success of each \code{library} call.
