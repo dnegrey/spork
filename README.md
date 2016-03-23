@@ -2,7 +2,12 @@
 
 R package with a hodgepodge of useful of things
 
-*version 1.1.0*
+*version 1.1.1*
+
+## 1.1.1
+
+* Changed parameter `f` to `file` for `loadPackages`, `readConfig` and `readTemplate`
+* Small edits to function help pages
 
 ## 1.1.0
 
