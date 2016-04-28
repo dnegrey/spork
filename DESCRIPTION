@@ -1,6 +1,6 @@
 Package: spork
 Type: Package
-Version: 1.1.1
+Version: 1.1.3
 Title: A multipurpose utensil
 Description: Miscellaneous collection of R functions, objects and templates
 Authors@R: c(
