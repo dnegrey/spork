@@ -2,11 +2,11 @@
 
 R package with a hodgepodge of useful of things
 
-*version 1.1.2*
+*version 1.1.3*
 
 ## Release Notes
 
-### 1.1.2
+### 1.1.2 - 1.1.3
 
 * README edits for better consistency across packages
 
